@@ -1,4 +1,3 @@
-import React from 'react';
 import './BrandStory.css';
 
 const BrandStory: React.FC = () => {

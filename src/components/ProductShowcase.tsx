@@ -1,4 +1,3 @@
-import React from 'react';
 import './ProductShowcase.css';
 
 const ProductShowcase: React.FC = () => {
