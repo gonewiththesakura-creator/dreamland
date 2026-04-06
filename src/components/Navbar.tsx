@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo from '../../public/logo.png';
 import './Navbar.css';
 
 const Navbar: React.FC = () => {
@@ -16,7 +17,9 @@ const Navbar: React.FC = () => {
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <div className="logo">
-          <a href="#">Dreamland</a>
+          <a href="#" aria-label="Dreamland 梦想国首页">
+            <img src={logo} alt="Dreamland 梦想国" className="logo-image" />
+          </a>
         </div>
         <nav className="nav-links">
           <a href="#hero">首页</a>

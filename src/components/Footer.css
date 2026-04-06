@@ -11,10 +11,11 @@
   margin-bottom: 4rem;
 }
 
-.footer-brand h2 {
-  font-family: var(--font-serif);
-  font-size: 2rem;
+.footer-logo {
+  height: 54px;
+  width: auto;
   margin-bottom: 1rem;
+  display: block;
 }
 
 .footer-brand p {

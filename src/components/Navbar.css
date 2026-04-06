@@ -23,11 +23,15 @@
 }
 
 .logo a {
-  font-family: var(--font-serif);
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 46px;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .nav-links {

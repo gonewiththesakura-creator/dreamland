@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <h2>Dreamland</h2>
+            <img src="/logo.png" alt="Dreamland 梦想国" className="footer-logo" />
             <p>重塑深度睡眠，回归自然本真。</p>
           </div>
           <div className="footer-links">
