@@ -23,7 +23,7 @@
 }
 
 .journal-card {
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.82);
   border-radius: 28px;
   padding: 2rem;
   box-shadow: var(--shadow-soft);
@@ -51,13 +51,8 @@
 
 .journal-card p {
   color: var(--text-secondary);
-  line-height: 1.8;
+  line-height: 1.95;
   flex: 1;
-}
-
-.journal-card a {
-  color: var(--color-primary);
-  font-weight: 600;
 }
 
 @media (max-width: 960px) {
